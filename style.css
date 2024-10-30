@@ -1,0 +1,91 @@
+.nav{
+background-color: deeppink;
+display:flex;
+}
+    /* display: flex !important;
+    justify-content: space-between !important;
+    justify-items: center !important;
+} */
+ .ab{
+    color: rgb(240, 238, 238);
+ }
+   /* Center the .menu container */
+   .sectionM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sectionM{
+    background-image: url(https://images.unsplash.com/photo-1586810146927-6503e5eb48fd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   }
+  .sectionM{
+    color: chocolate;
+  }
+
+  /* Center and align cards side by side */
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between cards */
+    flex-wrap: wrap; /* Allows cards to wrap to the next line if screen is too narrow */
+    max-width: 100%; /* Ensures responsiveness */
+  }
+
+  /* Optional: Adjust card width for better alignment */
+  .card {
+    width: 18rem;
+  }
+  
+  /* Center the text and image within .row */
+  .aboutus .container {
+    max-width: 80%; /* Optional: Limit the width of the container */
+    margin: 0 auto; /* Center container */
+    text-align: center;
+    margin: 5%;
+    background-color:rgb(179, 19, 19);
+    padding: 2%;
+  }
+  .aboutus{
+    color: rgb(44, 8, 8);
+    
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the columns */
+    flex-wrap: wrap; /* Make responsive by wrapping on small screens */
+  }
+
+  /* Set .col styling for flexibility */
+  .col {
+    flex: 1;
+    max-width: 45%; /* Set a max width for responsiveness */
+  
+  }
+
+  /* Ensure the image fits within its column */
+  .col img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+  .tcontact{
+    color: rgba(63, 20, 221, 0.699);
+
+  }
+  .foot{
+    size: 90%;
+  }
+  
+  #contact {
+    padding-bottom: 100px;
+  }
+
+  .foot {
+    margin-top: 100px;
+  }
+
